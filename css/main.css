@@ -8,7 +8,7 @@
 .container{
     background:linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%,
      #3db3c5cc 100%), url(../images/hero-bg.jpg);
-    height: 1000px;
+    height: 900px;
 }
 .header-logo h1{
     color: #fff;
@@ -58,6 +58,10 @@
     border-radius: 5px;
     margin-left: 20px;
 }
+.banner-left a:hover{
+    background: #fff;
+    color: #2d71a1;
+}
 .banner-right{
     max-width: 100%;
     margin-top: 40px;
@@ -71,19 +75,198 @@
     right: 15px;
     top: 455px;
 }
-@media(min-width:400px){
-    .header-logo h1{
-        /* margin-left: 40px; */
-       /* width: 100%; */
+@media(min-width:394px){
+    .banner-right{
+        width: auto;
     }
-/* .header{
-    width: 393px;
-} */
+.banner-right .image1{
+    position: relative;
+}    
+.banner-right .image2{
+    position: absolute;
+    top: 330px;
+    left: 210px;
+}
+}
+@media(min-width:750px){
+.banner-right .image1{
+    position: relative;
+}    
+.banner-right .image2{
+    position: absolute;
+    top: 330px;
+    left: 150px;
+}
+.banner-save-bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner-save-bottom .banner-row1,
+.banner-save-bottom .banner-row2,
+.banner-save-bottom .banner-row3{
+    padding: 20px;
+}
+}
+@media(min-width:990px){
+.container{
+    height: 800px;
 } 
-@media(min-width:765px){
-/* .header{
-    width: 760px;
-    justify-content: space-between;
-}     */
-
+.header-logo{
+    transform: translateX(70px);
+    transition: 2.4s;
+}
+.header-navigation{
+   transform: translateX(-60px);
+   transition: 2.4s;
 }   
+.header-navigation ul{
+    display: block;
+    display: flex;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+.header-navigation li a{
+    text-decoration: none;
+    padding: 10px 0 10px 30px;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 17px;
+    font-weight: 400px;
+}
+.header-navigation .active{
+    color: #fff;
+}
+.header-navigation i{
+    display: none;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-left{
+    margin-top: 180px;
+    margin-right: 40px;
+    text-align: left;
+    transform: translatex(70px);
+    transition: 3.4s;
+    width: 55%;
+} 
+.banner-left p{
+    text-align: left;
+}
+.banner-left h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+}
+.banner-right{
+    transform: translateX(-10px);
+    transition: 3.4s;
+}
+.banner-right .image1{
+    position: relative;
+}
+.banner-right .image2{
+    position: absolute;
+    left:100px;
+    top: 50px;
+}
+.banner-save{
+    padding-top: 200px;
+}
+.banner-save-top{
+    width: 38%;
+    margin-left: 350px;
+}
+.banner-save-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+}
+}
+@media(min-width:1200px){
+.header-logo{
+     transform: translateX(80px);
+     transition: 2.4s;
+}
+.header-navigation{
+    transform: translateX(-60px);
+    transition: 2.4s;
+}
+.banner-left{
+    transform: translatex(80px);
+    transition: 1s;
+}
+.banner-right{
+    transform: translateX(-50px);
+    transition: 1s;
+} 
+.banner-save-bottom .banner-row1,
+.banner-save-bottom .banner-row2,
+.banner-save-bottom .banner-row3{
+    padding: 32px;
+}
+.banner-save-top{
+    margin-left: 400px;
+}
+.banner-row1{
+    margin-left: 50px;
+}
+.banner-row3{
+    margin-right: 30px;
+} 
+}
+.banner-save h2{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background: linear-gradient(-45deg, #3db3c5, #274685);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 70px;
+}
+.banner-save-bottom{
+    text-align: center; 
+    margin-top: 50px;
+}
+
+.banner-row1,.banner-row2,.banner-row3{
+    padding: 6px;
+}
+.banner-icon i{
+    font-size: 40px;
+    color: #fff;
+}
+.banner-icon{
+    background: linear-gradient(-45deg, #3b87bd, #2d71a2);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
+}
+.banner-row1 h3,
+.banner-row2 h3,
+.banner-row3 h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    margin-bottom: 30px;
+}
+.banner-row1 p,
+.banner-row2 p,
+.banner-row3 p{
+    color: #b1b1b1;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+ 
