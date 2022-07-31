@@ -1,14 +1,15 @@
+.container{
+    background:linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%,
+     #3db3c5cc 100%), url(../images/hero-bg.jpg);
+    height: 900px;
+}
+        /* header */ 
 .header{
     display: flex;
     justify-content: space-between;
     width: auto;
     margin: auto;
     padding: 30px 20px;
-}
-.container{
-    background:linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%,
-     #3db3c5cc 100%), url(../images/hero-bg.jpg);
-    height: 900px;
 }
 .header-logo h1{
     color: #fff;
@@ -23,6 +24,7 @@
 .header-navigation ul{
     display: none;
 }
+        /* banner */
 .banner{
     text-align: center;
     width: auto;
@@ -75,6 +77,165 @@
     right: 15px;
     top: 455px;
 }
+      /* banner-save */
+.banner-save h2{
+    font-size: 49px;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background: linear-gradient(-45deg, #3db3c5, #274685);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 70px;
+}
+.banner-save-bottom{
+    text-align: center; 
+    margin-top: 50px;
+}
+
+.banner-row1,.banner-row2,.banner-row3{
+    padding: 6px;
+}
+.banner-icon i{
+    font-size: 40px;
+    color: #fff;
+}
+.banner-icon{
+    background: linear-gradient(-45deg, #3b87bd, #2d71a2);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
+}
+.banner-row1 h3,
+.banner-row2 h3,
+.banner-row3 h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    margin-bottom: 30px;
+}
+.banner-row1 p,
+.banner-row2 p,
+.banner-row3 p{
+    color: #b1b1b1;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+     /* banner-image */
+.banner-image-top{
+    margin: auto;
+    width: 100%;
+}
+.banner-image img{
+    width: 350px;
+    height: 350px;
+    margin-top: 150px;
+    margin-left: 20px;
+} 
+     /* banner-row */
+.banner-row{
+    padding: 10px;
+} 
+.banner-box{
+    box-shadow: 0 10px 30px -5px rgb(0 0 0 / 10%);
+    padding: 40px;
+    background: #fff;
+}
+.banner-box span{
+    color: #274685;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 15px;
+    letter-spacing: 4px;
+}
+.banner-box h3{
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.banner-box p{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #9fa1a4;
+    line-height: 1.3;
+}
+    /* banner-seam-con */
+.banner-seam-con{
+    width: 100%;
+    height: 650px;
+}    
+.banner-seam-left h2{
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    padding: 30px 15px;
+    margin-top: 50px;
+}
+.banner-seam-left p{
+    font-family: "Roboto", sans-serif;
+    color: #9fa1a4;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+.banner-seam-left a{
+    text-decoration: none;
+    background: linear-gradient(-45deg, #3db3c5, #274685);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+    /* banner-feed-con */
+.banner-feed-con{
+    width: 100%;
+    height: 600px;
+}
+.banner-feed-right h2{
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    padding: 30px 15px;
+    margin-top: 50px;
+}
+.banner-feed-right p{
+    font-family: "Roboto", sans-serif;
+    color: #9fa1a4;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+.banner-feed-right a{
+    text-decoration: none;
+    background: linear-gradient(-45deg, #3db3c5, #274685);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+     /* banner-review */
+ .banner-review{
+    width: 100%;
+    height: 600px;
+ }    
+ .banner-review-top h2{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(-45deg, #3db3c5, #274685);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
 @media(min-width:394px){
 .banner-right .image1{
     position: relative;
@@ -85,7 +246,7 @@
     left: 210px;
 }
 .banner-image .banner-img{
-    width: 90%;
+    width: 95%;
     height: 350px;
 } 
 .banner-row{
@@ -112,7 +273,7 @@
     padding: 20px;
 }
 .banner-image .banner-img{
-    width: 90%;
+    width: 95%;
     height: 250px;
 } 
 .banner-row{
@@ -239,7 +400,7 @@
     width: 95%;
 }
 .banner-image .banner-img{
-    width: 90%;
+    width: 95%;
     height: 330px;
 } 
 .banner-row{
@@ -296,145 +457,4 @@
     margin: 10px;
     padding: 53px;
 }
-}
-.banner-save h2{
-    font-size: 49px;
-    font-weight: 800;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    background: linear-gradient(-45deg, #3db3c5, #274685);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-top: 70px;
-}
-.banner-save-bottom{
-    text-align: center; 
-    margin-top: 50px;
-}
-
-.banner-row1,.banner-row2,.banner-row3{
-    padding: 6px;
-}
-.banner-icon i{
-    font-size: 40px;
-    color: #fff;
-}
-.banner-icon{
-    background: linear-gradient(-45deg, #3b87bd, #2d71a2);
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-    box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
-}
-.banner-row1 h3,
-.banner-row2 h3,
-.banner-row3 h3{
-    font-size: 20px;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    color: #000;
-    margin-bottom: 30px;
-}
-.banner-row1 p,
-.banner-row2 p,
-.banner-row3 p{
-    color: #b1b1b1;
-    font-family: "Roboto", sans-serif;
-    line-height: 1.5;
-    font-size: 16px;
-}
-.banner-image-top{
-    margin: auto;
-    width: 90%;
-}
-.banner-image img{
-    width: 350px;
-    height: 350px;
-    margin-top: 150px;
-    margin-left: 20px;
-} 
-.banner-box{
-    box-shadow: 0 10px 30px -5px rgb(0 0 0 / 10%);
-    padding: 40px;
-    background: #fff;
-}
-.banner-row{
-    padding: 10px;
-} 
-.banner-box span{
-    color: #274685;
-    font-size: 18px;
-    font-weight: 700;
-    display: inline-block;
-    margin-bottom: 15px;
-    letter-spacing: 4px;
-}
-.banner-box h3{
-    font-family: "Poppins", sans-serif;
-    color: #000;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.banner-box p{
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    color: #9fa1a4;
-    line-height: 1.3;
-}
-    /* banner-seam-con */
-.banner-seam-con{
-    width: 100%;
-    height: 650px;
-}    
-.banner-seam-left h2{
-    font-size: 25px;
-    font-family: "Poppins", sans-serif;
-    color: #000;
-    padding: 30px 15px;
-    margin-top: 50px;
-}
-.banner-seam-left p{
-    font-family: "Roboto", sans-serif;
-    color: #9fa1a4;
-    line-height: 1.5;
-    margin-bottom: 40px;
-    margin-left: 15px;
-}
-.banner-seam-left a{
-    text-decoration: none;
-    background: linear-gradient(-45deg, #3db3c5, #274685);
-    color: #fff;
-    padding: 15px 30px;
-    border-radius: 5px;
-}
-    /* banner-feed-con */
-.banner-feed-con{
-    width: 100%;
-    height: 600px;
-}
-.banner-feed-right h2{
-    font-size: 25px;
-    font-family: "Poppins", sans-serif;
-    color: #000;
-    padding: 30px 15px;
-    margin-top: 50px;
-}
-.banner-feed-right p{
-    font-family: "Roboto", sans-serif;
-    color: #9fa1a4;
-    line-height: 1.5;
-    margin-bottom: 40px;
-    margin-left: 15px;
-}
-.banner-feed-right a{
-    text-decoration: none;
-    background: linear-gradient(-45deg, #3db3c5, #274685);
-    color: #fff;
-    padding: 15px 30px;
-    border-radius: 5px;
 }
