@@ -179,7 +179,7 @@
     font-family: "Poppins", sans-serif;
     color: #000;
     padding: 30px 15px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .banner-seam-left p{
     font-family: "Roboto", sans-serif;
@@ -195,17 +195,20 @@
     padding: 15px 30px;
     border-radius: 5px;
 }
+.banner-seam-right img{
+    width: 360px;
+    margin-left: 20px;
+}
     /* banner-feed-con */
 .banner-feed-con{
     width: 100%;
-    height: 600px;
+    height: 700px;
 }
 .banner-feed-right h2{
     font-size: 25px;
     font-family: "Poppins", sans-serif;
     color: #000;
     padding: 30px 15px;
-    margin-top: 50px;
 }
 .banner-feed-right p{
     font-family: "Roboto", sans-serif;
@@ -221,10 +224,15 @@
     padding: 15px 30px;
     border-radius: 5px;
 }
+.banner-feed-image img{
+    width: 360px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
      /* banner-review */
  .banner-review{
     width: 100%;
-    height: 550px;
+    height:550px;
  }    
  .banner-review-top h2{
     font-size: 45px;
@@ -234,6 +242,7 @@
     background: linear-gradient(-45deg, #3db3c5, #274685);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: 100px;
  }
 .banner-review-center{
     text-align: center;
@@ -281,11 +290,20 @@
 .banner-starts{
     background: linear-gradient(to right, rgb(39, 70, 133) 0%, rgb(61, 179, 197) 100%);
     color: rgb(255, 255, 255);
-    height: 300px;
+    height: 400px;
 }
 .banner-starts-bottom a{
      text-decoration: none;
      color: rgb(255, 255, 255);
+}
+.banner-starts-top h2{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 100px;
 }
 @media(min-width:394px){
 .banner-right .image1{
