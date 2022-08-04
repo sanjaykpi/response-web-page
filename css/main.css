@@ -388,6 +388,12 @@
     width: 80%;
     margin: 70px;
 }
+.banner-seam{
+    margin: 15px 100px;
+}
+.banner-feed{
+    margin: 15px 100px;
+}
 }
 @media(min-width:750px){
 .banner-right .image1{
@@ -421,6 +427,23 @@
 .banner-row .banner-box{
     margin: 20px;
     padding: 30px;
+}
+.banner-seam{
+    display: flex;
+}
+.banner-seam-right{
+    margin: 170px 20px 0 70px;
+    width: 50%;
+}
+.banner-feed{
+    display: flex;
+}
+.banner-feed-image{
+    width: 50%;
+    margin: -50px 150px 0 -60px;
+}
+.banner-feed-right{
+    /* margin-left: 40px; */
 }
 }
 @media(min-width:990px){
